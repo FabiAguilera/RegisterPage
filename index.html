@@ -5,26 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
-    <!--1-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../RegisterPage/style.css" />
 </head>
 <body>
-    
+
     <!--2-->
-    <div class="border-style">
-        <h2>Sign Up!</h2>
-                <p id="email-padding1">Email</p>
-                <input id="email-padding2" type="text"/>
-                <p id="username-padding1">Username</p>
-                <input id="username-padding2" type="text"/>
-                <p id="password-padding1">Password</p>
-                <input id="password-padding2" type="password" />
-                <p id="confirm-padding1">Confirm Password</p>
-                <input id="confirm-padding2" type="password" />
-                <p id="submit-padding1">
-                    <button id="submit-padding2" type="submit">Submit</button>
+    <section class="section-right" style="width: 102%; float: right; background-color: rgb(174, 211, 174);">
+        <header style="text-align: right">
+            <p>
+                <button class="button1-color" type="submit">About Us</button>
+                <button class="button2-color" type="Register">Register</button>
+            </p>
+        </header>
+    </section>
+
+    <!--1-->
+    <div class="content-center" style="border: 2px solid black;">
+        <form>
+            <h2>Sign Up</h2>
+                <input type="text" placeholder="Email" />
+
+                <br>
+
+                <input type="text" placeholder="Username" />
+
+                <br>
+
+                <input type="password" placeholder="Password" />
+
+                <br>
+
+                <input type="password" placeholder="Confirm Password" />
+                <p>
+                    <button type="Submit">Submit</button>
                 </p>
+        <a href="https://www.linkedin.com/home">
+            <img src="../RegisterPage/assets/linkedin.png"
+                width="25" height="25">
+        </a>   
+
+        <a href="https://www.gmail.com/gmail">
+            <img src="../RegisterPage/assets/gmail.png"
+                width="25" height="25">
+        </a>
+
+        <a href="https://slack.com/workspace-signin">
+            <img src="../RegisterPage/assets/slack.png"
+                width="25" height="25">
+        </a>
+
+        <a href="https://twitter.com/">
+            <img src="../RegisterPage/assets/twitter.png"
+                width="25" height="25">
+        </a>
+        </form>
     </div>
-</header>
+    
 </body>
 </html>
